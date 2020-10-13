@@ -230,7 +230,7 @@ function mouseReleased(){
 function keyPressed(){
   if(keyCode === 32){
     Matter.Body.setPosition(this.polygon1, {x: 900, y: 200})
-    slingshot.attach(this.polygon1.body);
+    slingshot.attach(this.polygon1);
   }
 }
 
